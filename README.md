@@ -5,6 +5,8 @@
 [![Latest Version](https://img.shields.io/npm/v/vue-mc.svg?style=flat-square)](https://www.npmjs.com/package/vue-mc)
 [![License](https://img.shields.io/npm/l/vue-mc.svg?style=flat-square)](https://github.com/FiguredLimited/vue-mc/blob/master/LICENSE)
 
+**This is a Fork with compatibility to Babel v7 and others useful modifications**
+
 ### Documentation
 
 Documentation is available at **[http://vuemc.io](http://vuemc.io)**
@@ -13,28 +15,20 @@ Documentation is available at **[http://vuemc.io](http://vuemc.io)**
 
 #### Install
 
-Install [`yarn`](https://yarnpkg.com/en/) if you don't already have it available:
-
 ```
-sudo npm install -g yarn
-```
-
-Install the dependencies:
-
-```
-yarn
+npm i @throrin19/vue-mc
 ```
 
 #### Build
 
 ```
-yarn build --watch
+npm run build --watch
 ```
 
 #### Test
 
 ```
-yarn test --watch
+npm run test --watch
 ```
 
 #### Docs
@@ -42,7 +36,7 @@ yarn test --watch
 You will need to install jekyll to render and edit the documentation.
 
 ```
-yarn docs
+npm run docs
 ```
 
 ### License
